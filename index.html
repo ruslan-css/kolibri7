@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<title>tmkarjera</title>
+<link rel="icon" href="img/colibri.ico" type="image/x-icon">
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="tmkarjera Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="all" />
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/simple-adaptive-slider.min.css">
+<!-- js -->
+   <script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- Custom Theme files -->
+<!--webfont-->
+
+
+<!-- start-smoth-scrolling -->
+<script  src="js/move-top.js"></script>
+<script  src="js/easing.js"></script>
+<script >
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<script src="js/responsiveslides.min.js"></script>
+		<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						 // Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+							}
+							});
+						});
+		</script>
+					<script>
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems: 3,
+									animationSpeed: 3000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 1
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems: 1
+										},
+										tablet: { 
+											changePoint:1080,
+											visibleItems: 2
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script  src="js/jquery.flexisel.js"></script>
+<!--start-date-piker-->
+<script src="js/jquery-ui.js"></script>
+	<script>
+		$(function() {
+			$( "#datepicker,#datepicker1" ).datepicker();
+		});
+	</script>
+<!--/End-date-piker-->
+<!--animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+		<script>
+			 new WOW().init();
+		</script>
+<!--//end-animate-->
+</head>
+<body>
+<div class="banner w3l">
+		<div class="navigation wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+					
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  
+							<div class="logo">
+								<div class="lang_buttons">
+									<a href="ruweb.html" class="button rus_lang">
+										RU
+									  </a>
+									
+								  </div>
+							
+							</div>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav class="menu menu--horatio">
+								<ul class="nav navbar-nav menu__list">
+									<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Galvenā</a></li>
+											<li class="menu__item"><a href="#about" class="menu__link scroll">Pierakstīties</a></li> 
+											<li class="menu__item"><a href="#treatments" class="menu__link scroll">Pakalpojumi</a></li> 
+											<li class="menu__item"><a href="#team" class="menu__link scroll">Par mani</a></li> 
+											<li class="menu__item"><a href="#price" class="menu__link scroll">cena</a></li> 
+											<li class="menu__item"><a href="#contact" class="menu__link scroll">Kontakti</a></li>
+
+								</ul>
+							</nav>
+						</div>
+					</nav>
+				</div>
+		</div>
+	<div class="banner-info wow bounceInDown" data-wow-duration="1s" data-wow-delay="0s">
+		<div class="container">
+			<div class="slider">
+				<div class="slider__wrapper">
+					<div class="slider__items">
+						
+						<div class="slider__item">
+						
+								<div style="height: 250px; background: white">
+								
+										<h4>Tatjana Mironova</h4>
+										<p>Karjeras konsultante <br>
+											Sociālā pedagoģe <br>
+											Jaunatnes lietu speciāliste </p>
+								</div>
+						</div>
+						<div class="slider__item">
+							<div style="height: 250px; background: white;">
+								<div class="slider__item_inner">
+									<span class="slider__item_testimonial">
+										<h3>Mans mērķis ir palīdzēt Jums apzināties savu patieso spēku un sasniegt vēlamo!</h3>
+									  </span>
+								
+								</div>
+								
+								
+							</div>
+						</div>
+						<div class="slider__item">
+							<div style="height: 250px; background: white;">
+								<div class="slider__item_inner">
+									<span class="slider__item_testimonial">
+										<p> Тava cilvēciskā vērtība aug un mainās, ja esi gatavs sevi pilnveidot </p>
+									  </span>
+									
+									<span class="slider__item_img">
+										<img class="slider__item_photo" src="img/colibri_logo.png" alt="">
+									  </span>
+								</div>
+							</div>
+						</div>
+					
+						
+					</div>
+				</div>
+				<a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+				<a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+			  </div>
+
+	
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+
+<div id="about" class="feature all_pad wthree">
+	<div class="container">
+		<h3 class="title">Pierakstīties<span></span></h3>
+		<div class="about-grids">
+			
+			<div class="col-md-6 feature-grid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+			
+				<a href="#small-dialog" class="play-icon popup-with-zoom-anim hvr-rectangle-out button">Pierakstīties uz konsultāciju </a>
+			
+					<!-- pop-up-box -->
+					<script  src="js/modernizr.custom.min.js"></script>   
+					<script src="js/jquery.magnific-popup.js" ></script>
+					<!--//pop-up-box -->
+					<div id="small-dialog" class="mfp-hide">
+						<div class="appoint reg">
+							<form action="mail.php" method="post" >
+								<p>
+									<label for="addr">E-pasts:</label>
+									<input type="text" name="addr" id="addr" size="30" />
+								</p>
+								<p>
+									<label class="tema" for="theme">Tema :</label>
+									<input type="text" name="theme" id="theme" size="30" />
+								</p>
+								<p>
+									<label for="text">Jūsu jautājums:</label>
+									<textarea rows="10" cols="20" name="text" id="text"></textarea>
+								</p>
+								<p>
+									<input type="submit" value="Nosūtīt" />
+								</p>
+								</form>
+						</div>
+					</div>
+					<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+					</script>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<!-- team -->
+<div id="team" class="team-content all_pad agileits wow fadeInUp animated" data-wow-delay=".5s">
+	<div class="container">
+		<h3 class="title">PAR MANI UN MANU DARBĪBU:<span></span></h3>	
+		
+		<div class="team-grids">
+			
+			<div class="col-xl-12 team-gd">
+				<div class="team-left">
+					<div class="team-top">
+					
+					</div>
+					<div class="team-bottom">
+						<h4>Mani sauc TATJANA MIRONOVA</h4>
+						<p>Dzīves moto: “Dzīve man dod visu nepieciešamo”</p>
+						
+					</div>
+					<div class="t-img">
+						<img src="img/photo11.jpg" alt=" " />
+					</div>
+				</div>
+			</div>
+	
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<div class="prices all_pad agile wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+	<div class="container">
+		<h3 class="title">KARJERAS KONSULTANTE <span></span></h3>
+		<div class="prices-grids">
+			
+			<div class="col-md-4 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>Grupu darbs, apmācības:</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Veicinu savas personības izzināšanu, stiprās un vājās puses, raksturu, temperamentu un talantu; </a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Pilnveidoju pozitīva un reāla PAŠTĒLA izveidi;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Nosaku un attīstu personiskās sociālās prasmes un spējas, kas ir pamats veiksmīgas karjeras veidošanā;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Attīstu  lēmumu pieņemšanas un atbildības;</a> </li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>Indivuduālās konsultācijas klātienē/ online (no 13 gadiem)
+							Ir domātas  TEV, ja TU:</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Vēlies iekārtoties darbā; </a> </li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Nezini, kādu izglītības iestādi izvēlēties;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Domā par profesijas izvēli;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Atrast risinājumu esošai situācijai;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Kļūt labākajam savā profesijas jomā;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Domā par savu karjeru un vēlies palielināt savus ienākumus;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Rūpīgi sagatavoties darba intervijai;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  Vēlies gūt savu pirmo darba pieredzi;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Ir vajadzīga palīdzība CV un pieteikuma (motivācijas vēstules) rakstīšanā;</a></li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>PAKALPOJUMI ORGANIZĀCIJĀM:</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Darba intervijas organizēšana un vadīšana; </a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Komandas saliedēšanas orientēti pasākumi;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Darba procesa kvalitātes un produktivitātes uzlabošanas ieteikumi;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Organizācijas struktūras darbības SVID analīze; </a></li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<div id="prices" class="prices all_pad agile wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+	<div class="container">
+		<h3 class="title">Pakalpojumi <span></span></h3>
+		<div class="prices-grids">
+		
+			<div class="col-md-6 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>SOCIĀLĀ PEDAGOĢE</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Konsultēju vecākus bērna audzināšanas un attīstības jautājumos;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Atbilstoši bērna vecumposmam diagnosticēju bērna attīstības līmeni;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Veicu attīstošas nodarbības bērniem gan individuāli, gan mazās grupās;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Palīdzu sagatavoties veiksmīgai  bērnudārza un skolas uzsākšanai;</a> </li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Palīdzu rast risinājumu „paaudžu konfliktiem; </a><li>
+						</ul>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>JAUNATNES LIETU SPECIĀLISTE <br> priekš jauniešiem (13-29 gadiem ), kas:</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Domā par lietderīgu brīva laika pavadīšanu;  </a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Interesē tematiskie pārgājieni, ekskursijas; </a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Rūpējas par savas personības pašapziņas paaugstināšanu; </a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Ir aktīva pozīcija līdzdalībā sabiedriskajā dzīvē;</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Meklē brīvprātīgā darba iespējas</a></li>
+
+						</ul>
+					
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //team -->
+
+<div id="treatments" class="treatments all_pad w3 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+	<div class="container">
+		<h3 class="title">Pakalpojumi <span></span></h3>
+		<p class="para">Mans mērķis ir palīdzēt Jums apzināties savu patieso spēku un sasniegt vēlamo! </p>
+	</div>
+	<div class="treat-grids">
+		<div class="flex-slider wow fadeInDown animated" data-wow-delay=".5s">
+			<ul id="flexiselDemo1">			
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="img/photo13.jpg" data-lightbox="example-1" data-title="photo">
+						
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="img/photo13.jpg" alt=" " /></div>
+								<div class="pets-info">
+									<div class="pets-info-slid">
+										
+										<span class="strip_line"></span>
+										<p>Indivuduālās konsultācijas klātienē/ online (no 13 gadiem)
+											Ir domātas  TEV, ja TU:</p>
+										<span class="strip_line"></span>
+									</div>
+								</div>
+								
+							</div>
+						</a>
+							<div class="pets-effect-btm">
+								<h5><i>KARJERAS KONSULTANTE</i></h5>
+						
+							</div>
+						
+					</div>
+				</li>
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="img/photo14.jpg" data-lightbox="example-1" data-title="photo">
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="img/photo14.jpg" alt=" " /></div>
+								<div class="pets-info">
+									
+
+									<span class="strip_line"></span>
+										<p>(konsultācijas ir domātas vecākiem un topošiem vecākiem, kā arī vecvecākiem)</p>
+										<span class="strip_line"></span>
+								</div>
+								
+							</div>
+						</a>
+							<div class="pets-effect-btm">
+								<h5><i>SOCIĀLĀ PEDAGOĢE</i></h5>
+
+							</div>
+					</div>
+				</li>
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="img/photo16.jpg" data-lightbox="example-1" data-title="photo">
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="img/photo16.jpg" alt=" " /></div>
+								<div class="pets-info">
+									<div class="pets-info-slid">
+									
+										<span class="strip_line"></span>
+										<p>Domā par lietderīgu brīva laika pavadīšanu;</p>
+										<span class="strip_line"></span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="pets-effect-btm">
+							<h5><I>JAUNATNES LIETU SPECIĀLISTE</I></h5>
+					
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="img/photo15.jpg" data-lightbox="example-1" data-title="photo">
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="img/photo15.jpg" alt=" " /></div>
+								<div class="pets-info">
+									<div class="pets-info-slid">
+							
+										<span class="strip_line"></span>
+										<p>(konsultācijas ir domātas vecākiem un topošiem vecākiem, kā arī vecvecākiem)</p>
+										<span class="strip_line"></span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="pets-effect-btm">
+							<h5><i>SOCIĀLĀ PEDAGOĢE</i></h5>
+							
+						</div>
+					</div>
+				</li>
+			</ul>
+			 <script src="js/lightbox.js"></script>
+			
+		</div>
+	</div>
+</div>
+
+<div  class="prices all_pad agile wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+	<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+                    <div class="require_block require_block_nmb">
+                        <div class="require_title">
+                            KĀDUS REZULTĀTUS NOVĒRO KLIENTI PĒC MŪSU SADARBĪBAS:
+
+                        </div>
+                            <ul class="require_list">
+                                <li>Uzlabojās attiecības ar bērnu; </li>
+                                <li>Sāku plānot savu budžetu, tagad varu atļauties lietas, kurām agrāk nebija naudas, bet pārstāju naudu “izmest” nevajadzīgajām lietām.</li>
+                                <li>Ieguvu pirmo darba pieredzi, veicot brīvprātīgo darbu;</li>
+                                <li> Veiksmīgi iekārtojos darbā, kas patīk;</li>
+                                <li> Rūpīgi sagatavoties darba intervijai;</li>
+                                <li> Vēlies gūt savu pirmo darba pieredzi;</li>
+                                <li>  Izzināju savu patieso ES, savu spēku un potenciālu;</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="require_block require_block_nmb">
+                        <div class="require_title">
+                            KĀPĒC PIERAKSTĪTIES KONSULTĀCIJAI:
+
+                        </div>
+                            <ul class="require_list">
+                                <li>Meklē risinājumu esošai dzīves situācijai;  </li>
+                                <li>Pilnīgi Konfidenciāli!</li>
+                                <li>Darbojos individuāli Jūsu (Jūsu bērna) interesēs;</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="require_block require_block_nmb warning">
+                        <div class="require_title">
+                            SVARĪGI:
+                        </div>
+                            <ul class="require_list">
+                                <li>Augsti vērtēju gan savu, gan Jūsu laiku! Tāpēc esam cieņpilni un punktuāli. (protams dzīvē dažreiz notiek neparedzētais, bet svarīgi par to informēt iepriekš);</li>
+                                <li>  Mans mērķis ir IEDVESMOT. IEDROŠINĀT. ATBALSTĪT.SNIEGT INFORMĀCIJU; </li>
+                                <li>Cilvēki var apzināties tikai 10 % no visa, tāpēc dažreiz man patīk izmantot metaforiskās kārtis, kas ļauj ieskatīties dziļāk mūsu zemapziņā;</li>
+                                <li>Uz vienu lietu paskatīties no dažādām pusēm; </li>
+								<li>Visas dzīves jomas ir saistītas savā starpā;</li>
+                            </ul>
+                    </div>
+                </div>
+
+			</div>
+	</div>	
+</div>
+<div  class="feature all_pad wthree" id="yes">
+	<div class="container">
+		<h3 class="title"><span></span></h3>
+		<p class="para">  </p>
+		<div class="about-grids">
+			<div class="col-md-6 feature-grid-one wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+				<div class="port-8 effect-3">
+						<div class="image-box">
+							<img src="img/photo10.jpg" alt="Image-3">
+						</div>
+						<div class="text-desc">
+							<h4></h4>
+							<p></p>
+						</div>
+					</div>
+			</div>
+			<div class="col-md-6 feature-grid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+				<h4>Par Mani</h4>
+				<p>2012.– 2016. „Karjeras konsultants” un „jaunatnes lietu speciālists”, Daugavpils Universitāte (Mg grāds izglītības jomā) </p>	
+				<p>2007. – 2012. „Sociālais pedagogs”, Rēzeknes Augstskola (Bakalaura grāds izglītības jomā) </p>
+				<p>	2019. “Mazā biznesa organizēšana”, 
+					mācību centrs VIRŠI. SIA “VERESOK”, (Profesionālās pilnvides izglītība),</p>
+					<p>Dažādi profesionālās pilnveides kursi 14 gadu garumā;</p>
+				<p>Darba pieredze: vairāk par 9 gadiem sociālajā un izglītības jomā. Pašvaldībās un privatajā sektorā.
+					Ģimenes stāvoklis: precēta, trīs jauku bērnu mamma;
+					Hobiji: adīšana, tamborēšana, ģitāraspēlēšana (tiek apgūšanas procesā), skrituļslidas un sevis pilnveide; </p>
+				
+	
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+
+<section class="price" id="price">
+	<div class="container">
+	
+		<h2 class="title title_white">Konsultācijas pēc iepriekšēja pieraksta
+			</h2>
+			<ul class="require_list price_descr">
+				<li>Konsultācijas ilgums: 45-90 min. </li>
+				<li> Konsultācijas cena: 15.00-45.00 Euro </li>
+				<li> Pirmā konsultācija 20 min. ir bezmaksas</li>
+			</ul>
+	</div>
+	
+</section>
+
+<!-- contact -->
+<div id="contact" class="contact all_pad w3agile wow bounceInDown" data-wow-duration="1s" data-wow-delay="0s">
+	<div class="container">
+		<h3 class="title">Kontakti<span></span></h3>
+		
+		<div class="col-md-12 contact-left">
+			<h4>Pieteikties konsultācijai  </h4>
+			<form action="mail.php" method="post">
+				<div class="form-left">
+					<input type="text" value="Vārds" name="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
+				</div>
+				<div class="form-right">
+					<input type="email address" value="E-pasts" name="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+				</div>
+				<div class="clearfix"></div>
+				
+				<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Jūsu jautājums </textarea>
+				<input type="submit" value="nosūtīt">
+			</form>
+			<div class="footer-grids">
+				<div class="col-sm-4 footer-one">
+					<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
+					<p><a href="tel:+37122312272 " class="subheader_phone">+371 22 31 22 72 </a></p>
+
+				</div>
+				<div class="col-sm-4 footer-one">
+					<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+					<p><a href="mailto:mironova.tatjana154@gmail.com">mironova.tatjana154@gmail.com</a></p>
+				</div>
+				<div class="col-sm-4 footer-one">
+					<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
+					<p>Atbrīvošanas aleja 93A,  <span>Rēzekne (ēka aiz Rēzeknes pilsētas domes, 2. stāvā, 12 kabinets)</span></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+		
+	</div>
+</div>
+<!-- //contact -->
+
+<!-- smooth scrolling -->
+	<script >
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<script src="js/script.js"></script>
+	<script src="js/simple-adaptive-slider.min.js"></script>
+</body>
+</html>
